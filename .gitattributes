@@ -1,0 +1,7 @@
+# Configuração para arquivos JavaScript e JSON
+*.js text eol=lf
+*.json text eol=lf
+
+# Configuração para arquivos HTML e CSS
+*.html text eol=lf
+*.css text eol=lf

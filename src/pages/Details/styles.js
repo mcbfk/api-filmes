@@ -43,6 +43,10 @@ export const Container = styled.div`
         background-color: #5848c2;
     }
 
+    a:last-child {
+        margin-left: 20px;
+    }
+
     span {
         line-height: 130%;
         margin-bottom: 1rem;
@@ -52,4 +56,5 @@ export const Container = styled.div`
     .release-date {
         opacity: 0.5;
     }
+
 `

@@ -29,6 +29,7 @@ function Details() {
             })
     }, [id])
 
+
     return (
         <Container>
             <div className="movie">
@@ -37,7 +38,10 @@ function Details() {
                     <h1>{movie.title}</h1>
                     <span>Sinopse: {movie.sinopse}</span>
                     <span className="release-date">Release date: {movie.releaseDate}</span>
-                    <Link to="/"><button>Go Back</button></Link>
+                    <div>
+                        <Link to="/"><button>Voltar</button></Link>
+                        <Link to={`/movie/${movie.id}`}><button>Assistir</button></Link>
+                    </div>
                 </div>
             </div>
         </Container>
